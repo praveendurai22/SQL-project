@@ -1,0 +1,24 @@
+/*create database*/
+create database win;
+/*create table for database*/
+create table win.student(
+s_no int primary key,
+name varchar(20),
+roll_no varchar(20),
+dept varchar(20),
+clg_name varchar(20),
+place varchar(20)
+);
+/*datas for table*/
+insert into win.student values
+(1,"praveen","14","BME","MEC","rasipuram"),
+(2,"baala","24","BME","MEC","rasipuram"),
+(3,"ravi","15","BME","MEC","rasipuram"),
+(4,"ram","16","BME","MEC","rasipuram"),
+(5,"kamal","18","BME","MEC","rasipuram"),
+(6,"mohan","10","BME","MEC","rasipuram"),
+(7,"nami","11","BME","MEC","rasipuram"),
+(8,"kitagava","12","BME","MEC","rasipuram"),
+(9,"roi","13","BME","MEC","rasipuram"),
+/*to display the datas*/
+select * from win.student;
